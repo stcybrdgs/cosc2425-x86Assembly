@@ -1,9 +1,8 @@
-Project Description
-===================
-Description:    This project updates an assembly-code file provided by the
-                instructor so that the following text is sent to the console
-                when printf is called:
-                        Course: COSC2425 Lab2
-                        Student: firstname lastname
-                        Project: Nasm Hello World
+#lab2
+
+Description:    
+This project was my first assembly-code project. My challenge was to update an .asm file provided by the instructor so that it prints out the following information:
+- Course: COSC2425 Lab2
+- Student: firstname lastname
+- Project: Nasm Hello World
          
