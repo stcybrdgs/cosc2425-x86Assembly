@@ -1,0 +1,1 @@
+I am running this program from the command line with: $ ./Producer < intermediate | ./Consumer

@@ -1,0 +1,55 @@
+# gdb script for lab4
+  set disassembly-flavor intel
+  info functions
+
+# show the program code
+  disassemble lab4
+
+# run to code start
+  b main
+  run
+
+# show initial register set
+  info registers
+  display/i $pc
+
+# step through code skipping function calls
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+
+# show registers and continue stepping
+info registers
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+ni
+
+# show ending register set
+info registers
+quit
+
+  
+	
