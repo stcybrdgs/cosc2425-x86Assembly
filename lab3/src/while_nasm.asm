@@ -24,7 +24,7 @@ loop:
 
     lea     RDI, [rel message2]
     mov     al, 0
-    call printf
+    call    printf
 
 exit_script:
     ; function return
