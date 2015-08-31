@@ -9,7 +9,7 @@ main:
 	mov     RBP, RSP                ; point to the stack
 	sub     RSP, 32                 ; compute pointer
 
-	mov	    EAX, intA
+	mov	EAX, intA
 	mov     EDX, intB
 	cmp 	EAX, EDX
 	jl	    ifFalse
@@ -17,8 +17,8 @@ main:
 ifTrue:
 	lea     RDI,[rel boolagb]       ; load true message
 	mov     al, 0                   ; print true message
-    call    printf
-    jmp     exit_script
+        call    printf
+        jmp     exit_script
 
 ifFalse:    
 	lea     RDI, [rel boolalb]      ; load false message
@@ -27,7 +27,7 @@ ifFalse:
 
 exit_script:
     ; function return
-    mov EAX, 0
+        mov EAX, 0
    	add RSP, 32
    	pop RBP                         ; return
     
