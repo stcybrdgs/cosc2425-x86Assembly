@@ -1,6 +1,5 @@
 #lab2
 
-Description:    
 This project updates an assembly-code file provided by the instructor so that the following text is sent to the consolewhen printf is called:
 - Course: COSC2425 Lab2
 - Student: firstname lastname
