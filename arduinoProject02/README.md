@@ -1,5 +1,5 @@
 #arduinoProject02
 
-This project was a team effort to use x86 to program an Arduino controller to read input from an infra-red sensor.
+This project was built by a student team. We used x86 assembly language to program an Arduino controller to read input from an infra-red sensor.
 
-The C code and the project documentation are all included in the .pdf report.
+The code, circuit diagram, and all project documentation are included in the .pdf report.
