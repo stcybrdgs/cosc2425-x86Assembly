@@ -1,5 +1,5 @@
 # cosc2425-x86Assembly
-This repo contains x86 assembly language program from college coursework.
+This repository contains x86 assembly language program from college coursework.
 
 - **arduinoProject01**: a team project using C++ to program Arduino to behave like a Theramin
 - **arduinoProject02**: a team project using x86 to program Arduino to read an infrared sensor
